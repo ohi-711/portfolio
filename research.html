@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!–Website Information ->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Bill Sun's Personal Portfolio">
+	<meta name="author" content="Bill (Yuan Hong) Sun">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<!–Menu ->
+<div class="navbar" style="z-index: 2;">
+  <div class="button"><a href="contact.html" style="color: black; text-decoration: none; padding: 15px 15px">Contact</a></div>
+  <div class="button"><a href="blogs.html" style="color: black; text-decoration: none; padding: 15px 15px">Blog</a></div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="clubs.html" style="color: black; text-decoration: none; padding: 15px 0px">Extracurriculars</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="autodrive.html">Autonomous Vehicle Team</a>
+	<a href="solarcar.html">Solar Car Racing Team</a>
+	<a href="ewb.html">Engineers Without Borders</a>
+	<a href="ilead.html">iLead The Game, University of Toronto</a>
+	<a href="fes.html">Future Engineers Society, Earl Haig Secondary School</a>
+	<a href="weather.html">Earth Sciences Hobby Research</a>
+	<a href="deep.html">DEEP Summer Academy, University of Toronto</a>
+	<a href="swim.html">Swimming and Lifeguarding</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn"><a href="projects.html" style="color: black; text-decoration: none; padding: 15px 0px">Projects</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="research.html">Transportation Modelling Research</a>
+	<a href="app.html">Content Hosting App</a>
+	<a href="mi.html">Machine Learning Project</a>
+	<a href="game.html">Boxhead Video Game</a>
+	<a href="parking.html">Parking Manager App Simulator</a>
+	<a href="aer201.html">Autonomous Pill Packaging Machine</a>
+	<a href="praxis.html">ESC101/102 - Praxis I + II</a>
+	<a href="civ102.html">CIV102 - Structures and Materials</a>
+    </div>
+  </div>
+  <div class="button"><a href="overview.html" style="color: black; text-decoration: none; padding: 15px 15px">Overview</a></div>
+  <div class="button"><a href="index.html" style="color: black; text-decoration: none; padding: 15px 15px">Home</a></div>
+  <div class="logo">
+  	<a href="index.html"><img src="logo.jpg" alt="logo" style="width:80px;border:0"></a>
+  </div>
+</div>
+
+
+<div style="padding:100px; margin-top:50px; height:1100px;">
+<body background="transit1.jpg">
+
+<!–Main->
+<title>Transit Research - Bill Sun</title>
+</head>
+
+<h1>Greater Toronto Area Transit Path Modelling Research</h1>
+<h3>Data Management Group, University of Toronto Transportation Research Institute, Prof. Eric J. Miller</h3><br>
+
+<p>During the summer of 2017, I worked with Professor Eric J. Miller from the Department of Civil Engineering to perform transit data analysis for his research.</p>
+
+<p>Through the 16-week term, my work centered around path analysis—the modeling and investigation of individual trips taken in a computer traffic simulation of the Greater Toronto Area, to closely resemble the actual trips observed by Transportation Tomorrow Survey (TTS). The goal is to allow the computer model system to generate a set of trips that match as closely as possible to the observed trip data. If the computer-generated trips are not similar to the observed trips, then investigate the reason. The eventual goal is to use the computer-generated trip data and the model system to estimate future transit demand, thus aiding the planning of transit infrastructure.</p>
+
+<p>My work involved developing data analysis programs to analyze and compare the path data. These programs are made into a toolbox in the Emme software and can be repeatedly called from the path estimation model system. The model system is built using a software called XTMF, which uses a modular format for each function. XTMF can call and run Emme tools to perform tasks. One of my programs extracts the computer-generated trip data from Emme into a format that can be easily analyzed. Another program organizes the observed trip data, and compares them to the computer-generated trip data using three different methods. The path estimation model system was built so that it repeatedly runs transit assignments and generates trips, each assignment using different parameter values. The system then learns to generate better trip data (i.e. more similar to the observed data) through a particle-swarm optimization. Eventually, after a number of generations, the similarity should converge. Extensive testing and alterations were done to ensure correctness and improve runtime efficiency.</p>
+
+<p>After a number of model runs, it was found that even the best computer-generated trip data were significantly different from the observed trip data. Therefore, further investigation was done to understand whether there is an error with the model system, or an issue with the nature of how trips are generated by the computer. A lot of manual comparison, as well as numerical/program analysis were performed for computer-generated and actual trips for certain origin-destination pairs. Various other experiments were made by making changes to the Emme network of the GTA. This, along with many discussions with Prof. Miller and other data analysts at TMG, led to the conclusion that this is indeed a deficiency of how the Emme software generates the trips.</p>
+
+<p>Since the Emme network of the GTA is comprised of zones with centroids, routes, and centroid connectors that connect the centroids to the routes, each trip can only originate and end at the centroids of zones. The observed trip data only includes the start and end zones as well. Since a zone can cover an area of several km2, the exact location of the original and destination are unknown. Also, the way how the centroid connectors connect the centroids to the routes limited the number of possible paths. Thus, Emme has a hard time generating a lot of the observed paths. Possible solutions include using a coordinate system and setting the start and end locations of trips to coordinates instead of zones, or decreasing the size of zones by adding more zones in an area. These solutions can be explored in the future.</p>
+
+<p>For more detailed information about my work, a project report documenting my theories, experiments, and observations is available upon request, as well as documentation for my data-analysis programs.</p>
+
+<br>
+<h3>Links</h3>
+<p>Code for some of the programs can be found <a href="">here</a>.</p>
+<p><a href="http://uttri.utoronto.ca/">University of Toronto Transportation Research Institute</a></p>
+<p><a href="http://uttri.utoronto.ca/research/research-facilities/dmg/">Data Management Group</a></p>
+<p><a href="http://uttri.utoronto.ca/people/eric-j-miller/">Prof. Eric J. Miller</a></p>
+
+
+
+</div>
+
+
+
+<div class="footer">
+<br>                                   
+<form class="example" action="search.html" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search..." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<p><font color=#cccccc>Copyright 2018 © Bill Yuan Hong Sun</font>
+
+<div class="socialmedia">
+    <a href="index.html"><img src="github.png" alt="gh" width=30></a>
+    <a href="mailto:billyuanhong.sun@mail.utoronto.ca"><img src="outlook.png" alt="mail" width=30></a>
+    <a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><img src="linkedin.png" alt="li" width=30></a>
+    <a href="https://www.facebook.com/billyuanhong.sun"><img src="facebook.png" alt="fb" width=30></a>
+    <a href="https://www.instagram.com/billsunswag/?hl=en"><img src="instagram.png" alt="in" width=30></a>
+    <a href="https://twitter.com/billsunswag"><img src="twitter.png" alt="tw" width=30></a>
+</div>
+
+</p>
+<br><br>
+</div>
+
+</body>
+</html>﻿

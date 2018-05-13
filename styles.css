@@ -1,0 +1,224 @@
+﻿/* Top Menu Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ECEDF1;
+    font-family: Trebuchet MS;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .button {
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 17px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.navbar .button point{
+    background-color: #CCCCDD;
+}
+
+.navbar .logo {
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 17px;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 15px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    background-color: #ECEDF1;
+    font-family: inherit;
+    margin: 0;
+}
+
+.button:hover, .dropbtn:hover {
+    background-color: #CCCCDD;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Body */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Trebuchet MS;
+    color: black;
+}
+
+p {
+    color: #262626;
+}
+
+li {
+    color: #262626;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer { 
+    overflow: hidden;
+    float: left;
+    left:0;
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+
+/* Search Bar in Footer */
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #66686b;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #8b8e93;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Social Media Icons */
+.socialmedia{
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 30px;
+    bottom: 35px;
+    margin: 5px;
+}
+
+.socialmedia a:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+
+/* Portfolio Clickable Images with Pop up */
+.item{
+    z-index: 0;
+    margin:1.6667%;
+    position: relative;
+    width: 30%;
+    height: 55%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item img{
+    display: block;
+}
+
+.desc{
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white; 
+    background: rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+    transition: .3s ease;
+}
+
+.desc p{
+    margin: 1em;
+}
+
+@media (min-width: 37rem){
+    .item{
+	width:50%;
+	float:left;
+    }
+}
+
+@media (min-width: 60rem){
+    .item{
+	width:30%;
+	overflow: hidden;
+    }
+
+    .desc{
+	transform: translateY(150%);
+    }
+
+    .item:hover .desc{
+	transform: translateY(0%);
+    }
+}
