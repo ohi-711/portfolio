@@ -1,7 +1,7 @@
 ﻿/* Top Menu Bar */
 .navbar {
     overflow: hidden;
-    background-color: #ECEDF1;
+    background-color: #1a1a1a;
     font-family: Trebuchet MS;
     position: fixed;
     left: 0;
@@ -15,7 +15,7 @@
     right: 80px;
     top: 17px;
     font-size: 15px;
-    color: black;
+    color: white;
     text-align: center;
     padding: 15px 0px 15px 0px;
     text-decoration: none;
@@ -44,9 +44,9 @@
     font-size: 15px;    
     border: none;
     outline: none;
-    color: black;
+    color: white;
     padding: 15px 15px 15px 15px;
-    background-color: #ECEDF1;
+    background-color: #1a1a1a;
     font-family: inherit;
     margin: 0;
 }
@@ -121,6 +121,7 @@ a:hover {
 
 
 /* Search Bar in Footer */
+/*
 * {
     box-sizing: border-box;
 }
@@ -155,7 +156,7 @@ form.example::after {
     clear: both;
     display: table;
 }
-
+*/
 /* Social Media Icons */
 .socialmedia{
     display: inline-block;
