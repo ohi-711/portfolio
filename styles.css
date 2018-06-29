@@ -4,12 +4,11 @@
 }
 
 
-
 /* Top Menu Bar */
 .navbar {
     overflow: hidden;
     background-color: #4d4d4d;
-    font-family: Trebuchet MS;
+    font-family: Open Sans, sans-serif;
     position: fixed;
     color: white;
     left: 0;
@@ -28,7 +27,7 @@
     float: right;
     position: relative;
     right: 8%;
-    top: 17px;
+    top: 5px;
     font-size: 15px;
     color: white;
     text-align: center;
@@ -44,16 +43,16 @@
 .navbar .logo {
     float: left;
     position: relative;
-    left: 9%;
+    left: 9.5%;
     text-decoration: none; 
-    font-family:'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
-    font-size: 25pt;
-    color: #f2f2f2;
+    font-size: 20pt;
+    color: #ccccff;
 }
 
 .navbar .logo :hover{
-	color: #b3b3ff;
+	color: #FFFFFF;
 	transition: 0.05s;
 }
 
@@ -62,7 +61,7 @@
     float: right;
     position: relative;
     right: 8%;
-    top: 17px;
+    top: 5px;
     overflow: hidden;
 }
 
@@ -82,6 +81,7 @@
 }
 
 .dropdown-content {
+    font-size: 15px; 
     display: none;
     position: fixed;
     background-color: #595959;
@@ -116,16 +116,18 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Trebuchet MS;
+    font-family: Open Sans, sans-serif;
     color: black;
 }
 
 p {
     color: #262626;
+    line-height: 1.65;
 }
 
 li {
     color: #262626;
+    line-height: 1.6;
 }
 
 a {
@@ -207,7 +209,7 @@ form.example::after {
 /* Portfolio Clickable Images with Pop up */
 .item{
     z-index: 0;
-    margin:1.6667%;
+    margin: 1.6667%;
     position: relative;
     width: 30%;
     height: 30%;
