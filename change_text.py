@@ -24,7 +24,7 @@ def replace_text(filename, original_text, replaced_text):
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".html"): 
         print(filename)
-        replace_text(filename, "<a href=\"index.html\"><img src=\"github.png\" alt=\"gh\" width=30></a>", "<a href=\"https://github.com/billyhsun?tab=overview&from=2018-05-01&to=2018-05-31\"><img src=\"github.png\" alt=\"gh\" width=30></a>") # Replace text
+        replace_text(filename, "www.instagram.com/billsunswag", "www.instagram.com/billyhsun") # Replace text
         continue
     else:
         continue        
