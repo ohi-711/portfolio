@@ -1,0 +1,6 @@
+-Implement dynamic menubar that resizes when scrolling
+-Update content
+-New set of social media icons
+-Header images for all pages
+
+

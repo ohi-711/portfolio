@@ -19,12 +19,15 @@ def replace_text(filename, original_text, replaced_text):
             file.truncate()
             file.writelines(Lines)
     return
-            
-    
+
+#Modify
+prev_string = "<a href=\"autodrive.html\">Autonomous Vehicle Team</a>"
+new_string = ""
+
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".html"): 
         print(filename)
-        replace_text(filename, "www.instagram.com/billsunswag", "www.instagram.com/billyhsun") # Replace text
+        replace_text(filename, prev_string, new_string) # Replace text
         continue
     else:
         continue        
