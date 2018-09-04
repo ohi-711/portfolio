@@ -21,8 +21,8 @@ def replace_text(filename, original_text, replaced_text):
     return
 
 #Modify
-prev_string = "<a href=\"mi.html\">Machine Learning Project</a>"
-new_string = "<a href=\"https://devpost.com/software/surroundsound-1u9ljk\">Music Sharing App</a>"
+prev_string = "app.html"
+new_string = "https://devpost.com/software/chinabridge"
 
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".html"): 
