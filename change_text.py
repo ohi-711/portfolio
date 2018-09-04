@@ -21,8 +21,8 @@ def replace_text(filename, original_text, replaced_text):
     return
 
 #Modify
-prev_string = "app.html"
-new_string = "https://devpost.com/software/chinabridge"
+prev_string = "<div class=\"footer\">"
+new_string = "<!--Footer-->\n<div class=\"footer\">"
 
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".html"): 
