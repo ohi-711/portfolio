@@ -21,8 +21,8 @@ def replace_text(filename, original_text, replaced_text):
     return
 
 #Modify
-prev_string = "<div class=\"footer\">"
-new_string = "<!--Footer-->\n<div class=\"footer\">"
+prev_string = "<a href=\"https://twitter.com/billsunswag\"><img src=\"twitter.png\" alt=\"tw\" width=30></a>"
+new_string = "<a href=\"mailto:billyuanhong.sun@mail.utoronto.ca\"><img src=\"outlook.png\" alt=\"mail\" width=30></a>"
 
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".html"): 
@@ -34,3 +34,4 @@ for filename in os.listdir(os.getcwd()):
 print ("Done")
 
 
+#
