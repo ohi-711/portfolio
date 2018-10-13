@@ -5,4 +5,4 @@ This is a portfolio of my skills, experiences, and insights. It includes coursew
 
 #### Home screen
 
-![Alt text](/home.png?raw=true "home page")
+![Alt text](/pics/home.png?raw=true "home page")
