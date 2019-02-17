@@ -153,6 +153,84 @@ a:hover {
 }
 
 
+/* Intro Box */
+.box{
+    width: 500px;
+    background: rgba(25, 26, 26, 0.507);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    opacity: 1;
+    border: 5px groove white;
+}
+.box-img{
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: auto;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+    color: white;
+}
+.box ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 50ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.box button{
+    background-color: #4A4A4A;
+    width: 88px;
+    padding: 10px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2d2d2d;
+    cursor: pointer;
+}
+.box a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.box button:hover{
+    background-color: #686868;
+}
+
+
 /* Search Bar in Footer */
 /*
 * {
@@ -202,9 +280,9 @@ form.example::after {
 }
 
 .socialmedia a:hover {
- 	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
-	-moz-box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
-	box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
+    box-shadow: 0px 0px 30px 0px rgba(0, 140, 186, 0.5);
 }
 
 
@@ -274,13 +352,11 @@ form.example::after {
 
 
 /* Table of Contents */
-
 #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
     display: table;
     font-size: 95%;
-    margin-bottom: 1em;
     padding: 20px;
     margin: 20px;
     width: auto;
@@ -295,3 +371,7 @@ form.example::after {
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
 }
+
+
+
+
