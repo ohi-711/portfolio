@@ -65,7 +65,7 @@
 <!--Main-->
 <title>About Me - Bill Sun</title>
 
-<h1 style="text-align:center;">About Me</h1><br>
+<h1>About Me</h1><br>
 
 <h2 id="skills" style="text-align:center;">Skills Summary</h2>
 
@@ -89,41 +89,34 @@ h2{
 h3{
 	color: white;
 }
+table{
+  table-layout: fixed;
+}
+th, td{
+  text-align: center;
+}
+
+
+.container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 5px;
+  color: white;
+}
+.fluent {width: 100%; background-color: #888888;}
+.good {width: 67%; background-color: #888888;}
+.familiar {width: 33%; background-color: #888888;}
+
 </style>
 
 
-<!--
-
-<p><b>Software: </b></p> 
-<i class="fab fa-python fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-java fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i><img src="logos/c.png" alt="Python" width=42 style="margin:0px 5px"></i>
-<i><img src="logos/cpp.png" alt="Python" width=42 style="margin:0px 5px"></i>
-<i class="fab fa-js-square fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-node-js fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-html5 fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-css3 fa-3x" style="color:#FFFFFF; margin:5px"></i>
-
-
-<p><b>Other Technologies:</b></p> 
-<i class="fas fa-database fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-aws fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i><img src="logos/google-cloud.png" alt="Python" width=50 style="margin:0px 5px"></i>
-<i class="fab fa-linux fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-android fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i class="fab fa-react fa-3x" style="color:#FFFFFF; margin:5px"></i>
-<i><img src="logos/matlab.png" alt="Python" width=45 style="margin:0px 5px"></i>
-<i><img src="logos/excel.png" alt="Python" width=45 style="margin:0px 5px"></i>
-
-<p><b>Leadership:</b> <box style="color:white;background-color:#01700c">Engineering Design Process</box>
-        <box style="color:white;background-color:#01700c">Agile Methodology</box>
-        <box style="color:white;background-color:#01700c">Organization</box>
-        <box style="color:white;background-color:#01700c">Time Management</box>
-        <box style="color:white;background-color:#01700c">Teamwork</box>
-        <box style="color:white;background-color:#01700c">Communication</box>
-        <box style="color:white;background-color:#01700c">Mentoring</box></p>
-
--->
 <table style="width:100%">
   <tr>
     <th><h3>Programming</h3></th>
@@ -131,49 +124,76 @@ h3{
     <th><h3>Engineering & Leadership</h3></th>
   </tr>
   <tr>
-    <td><i class="fab fa-python fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i class="fas fa-database fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><p><b>Engineering Design Process</b></p></td>
+    <td><i class="fab fa-python fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><i class="fas fa-database fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><p><b>Engineering Design Process</b></p>
+      <div class="container"><div class="skills fluent"></div></div></td>
   </tr>
   <tr>
-    <td><i class="fab fa-java fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i class="fab fa-aws fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><p><b>Agile Methodology</b></p></td>
+    <td><i class="fab fa-java fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><i class="fab fa-aws fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><p><b>Agile Methodology</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
   </tr>
   <tr>
-    <td><i><img src="logos/c.png" alt="Python" width=42 style="margin:5px"></i></td>
-    <td><i><img src="logos/google-cloud.png" alt="Python" width=50 style="margin:0px 5px"></i></td>
-    <td><p><b>Software Development Cycle</b></p></td>
+    <td><i><img src="logos/c.png" alt="Python" width=42 style="margin:5px"></i>
+      <div class="container"><div class="skills familiar"></div></div></td>
+    <td><i><img src="logos/google-cloud.png" alt="Python" width=50 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><p><b>Software Development Cycle</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
   </tr>
   <tr>
-    <td><i><img src="logos/cpp.png" alt="Python" width=42 style="margin:5px"></i></td>
-    <td><i class="fab fa-linux fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><p><b>DevOps</b></p></td>
+    <td><i><img src="logos/cpp.png" alt="Python" width=42 style="margin:5px"></i>
+      <div class="container"><div class="skills familiar"></div></div></td>
+    <td><i class="fab fa-linux fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><p><b>DevOps</b></p>
+      <div class="container"><div class="skills familiar"></div></div></td>
   </tr>
   <tr>
-    <td><i class="fab fa-node-js fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i class="fab fa-react fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><p><b>Event Organization</b></p></td>
+    <td><i class="fab fa-node-js fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><i class="fab fa-react fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><p><b>Event Organization</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
   </tr>
   <tr>
-    <td><i class="fab fa-js-square fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i><img src="logos/excel.png" alt="Python" width=45 style="margin:0px 5px"></i></td>
-    <td><p><b>Teamwork</b></p></td>
+    <td><i class="fab fa-js-square fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><i><img src="logos/excel.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><p><b>Teamwork</b></p>
+      <div class="container"><div class="skills fluent"></div></div></td>
   </tr>
   <tr>
-    <td><i class="fab fa-html5 fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i><img src="logos/tensorflow.png" alt="Python" width=45 style="margin:0px 5px"></i></td>
-    <td><p><b>Project Management</b></p></td>
+    <td><i class="fab fa-html5 fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><i><img src="logos/tensorflow.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><p><b>Project Management</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
   </tr>
   <tr>
-    <td><i class="fab fa-css3 fa-3x" style="color:#FFFFFF; margin:5px"></i></td>
-    <td><i><img src="logos/pytorch.png" alt="Python" width=45 style="margin:0px 5px"></i></td>
-    <td><p><b>Public Speaking</b></p></td>
+    <td><i class="fab fa-css3 fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><i><img src="logos/pytorch.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills fluent"></div></div></td>
+    <td><p><b>Public Speaking</b></p>
+      <div class="container"><div class="skills fluent"></div></div></td>
   </tr>
   <tr>
-    <td><i><img src="logos/matlab.png" alt="Python" width=45 style="margin:0px 5px"></i></td>
-    <td><i><img src="logos/keras.png" alt="Python" width=45 style="margin:0px 5px"></i></td>
-    <td><p><b>Mentoring</b></p></td>
+    <td><i><img src="logos/matlab.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills good"></div></div></td>
+    <td><i><img src="logos/keras.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <div class="container"><div class="skills familiar"></div></div></td>
+    <td><p><b>Mentoring</b></p>
+      <div class="container"><div class="skills fluent"></div></div></td>
   </tr>
 </table>
 <br> 
@@ -241,7 +261,7 @@ h3{
 <div style="padding: 0% 10% 0% 10%; margin-top:50px; min-height:500px;">
 
 <h2 id="summary" style="color:#FFFFFF; text-align:center;">Personal Statement</h2>
-<h3>Why Engineering Science?</h3>
+<h3>Why Engineering?</h3>
 <p>I have been interested in engineering at a young age. I have been fascinated by machines, electronics, and transportation equipment. I also tried to copy my father’s technical drawings for fun. When I was taught visual arts, I learned how to represent and express my ideas in a unique manner. After I moved to Canada in 8th grade, and went through the struggles of being an immigrant, I realized the importance of helping out people in need. Incorporating my strengths in math and sciences, as well as my interest in design and research, I decided to peruse in engineering sciences.</p>
 
 <h3>My Missions</h3>
