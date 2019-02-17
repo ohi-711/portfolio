@@ -139,19 +139,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Footer */
-.footer { 
-    overflow: hidden;
-    float: left;
-    left:0;
-    display: block;
-    position: absolute;
-    font-size: 13px;
-    color: white;
-    background-color: #1a1a1a;
-    width: 100%;
-}
-
 
 /* Intro Box */
 .box{
@@ -228,6 +215,21 @@ a:hover {
 }
 .box button:hover{
     background-color: #686868;
+}
+
+
+/* Footer */
+.footer { 
+    overflow: hidden;
+    float: left;
+    left:0;
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    background-color: #1a1a1a;
+    width: 100%;
+    min-width: 600px;
 }
 
 
@@ -319,34 +321,34 @@ form.example::after {
 
 @media (min-width: 37rem){
     .item{
-		width:50%;
-		float:left;
-		overflow: hidden;
+	width:50%;
+	float:left;
+	overflow: hidden;
     }
 
     .desc{
     	width:100%;
-		transform: translateY(150%);
+	transform: translateY(150%);
     }
 
     .item:hover .desc{
-		transform: translateY(0%);
+	transform: translateY(0%);
     }
 }
 
 @media (min-width: 60rem){
     .item{
-		width:30%;
-		overflow: hidden;
+	width:30%;
+	overflow: hidden;
     }
 
     .desc{
     	width:100%;
-		transform: translateY(150%);
+	transform: translateY(150%);
     }
 
     .item:hover .desc{
-		transform: translateY(0%);
+	transform: translateY(0%);
     }
 }
 
