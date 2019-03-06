@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-@media (min-width: 60rem){
+@media (min-width: 550px){
 	.navbar {
 	    overflow: hidden;
 	    width: 100%;
