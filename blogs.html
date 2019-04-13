@@ -121,12 +121,45 @@ body {
 </head>
 <body>
 
+
+
 <div class="header">
   <h2>Bill Sun's Blog</h2>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
+
+
+    <div class="card">
+      <h2 id="20190403">Music Genre Classification using Deep Learning</h2>
+      <h5>Literature Review, Apr. 3, 2019</h5>
+      <img src="pics/Genres.png" alt="Genres" style="width:80%">
+
+<p>Last term, in my Introduction to Machine Intelligence course, I completed a project involving music genre classification on raw audio, using a supervised (labelled) machine learning (ML) model. Traditionally, music genres are difficult to distinguish since genres are generally ill-defined, so it is a classic ML problem. When I researched for inspirations and clues on how to process the data and build the ML models, I came across the papers presented here. As my initial experimentations were unsuccessful, the processes described in these papers were essential for turning the raw audio (in mp3 format) into useful information by capturing data features. They also helped me develop a neural network (NN) that worked well on the processed audio data, which was able to achieve over 80% test accuracy. Each of these papers covered a complete ML workflow from pre-processing to training and results.  </p>
+
+<p>The first paper, written by Bahuleyan [1], discussed his proposed solution of training a music genre classifier. He started by using 10-second sound clips from each song used in the training data. This is important as audio data can become very large. Having too much data would be impractical. I took this advice in my project, which significantly shortened data processing time. Then, the article described multiple techniques of sound feature extraction. This would capture important details in the sound audio that would make it easier to distinguish between music genres. The article compared general techniques such as dropout, normalization, and time and frequency domain features. Based on the analysis here using a set of defined metrics, it concluded that taking the Mel-frequency cestrum coefficients (MFCC), a frequency-domain feature, is the most effective method. This was very helpful as I later used MFCCs in my project. The paper further presented different ML techniques used (both NNs and non-NN approaches), which were somewhat helpful for my project. However, it did not present any specific model structures he used. Overall, to me, this paper offers a great methodological approach in finding the best data pre-processing technique for audio. </p>
+
+<p>The second paper, by Nasrullah and Zhao [2], presented the use of a convolutional recurrent neural network (CRNN) for music artist classification. First, it discussed pre-processing techniques for audio such MFCCs, which validated the research from the first article about its effectiveness. Yet, more emphasis was put on using spectrograms, a representation of frequency content over time. However, the most important takeaway from this paper is that a combination of convolutional neural networks (CNN) and recurrent neural networks (RNN) work well together to capture audio features. CNNs are good for frequency-domain features, while RNNs are good for any sequential data (along the time-domain). Therefore, the paper proposed the use of a CRNN to capture audio features from both time and frequency domains. It was even more helpful when it provided the neural network architecture used for this research, which gave me an idea of how to build my own NN. Overall, this paper validated some of the previous point made in the first paper regarding pre-processing techniques and provided more information on how to build the NN structure.  </p>
+
+<p>The third and final paper here by Oramas [3] is more advanced and extensive, where it covered the entire process from data representation to training and results, while bringing in a lot of new ideas not mentioned in previous articles. In data pre-processing and representation, aside from validating the techniques mentioned above (audio and visual representations for time and frequency-domain), it also offered text representation (from song lyrics), which gave me an alternative to only collecting audio data. The paper further discussed feature engineering that involved mathematical reduction of existing features, such as factorization. In the training section, the paper showcased both single-label and multi-label music genre classification. This is important since most music crosses between several genres, due to the ill-defined nature of music genres. It offered the possibility to classify songs under multiple genres, that would require slightly different neural network structures. These revised NNs were also presented in this paper. Finally, this paper talked about methods of qualitative analysis for classification error, such as confusion matrices and feature heat maps. This was useful for helping me formulate my own error analysis for the project. Overall, due to the extensiveness of this paper, I was able to learn significantly more about how to formulate my own music genre classifier, and offered me alternatives if the previous methods fail.  </p>
+
+<p>Overall, all three papers provided significant clues on how to build a working deep-learning model for music genre classification from raw audio. It discussed methods of data representation and pre-processing techniques, most importantly the effectiveness of MFCCs. They also gave insight on constructing the neural network, where I learned that using a combination of CNNs and RNNs (CRNNs) appears to be the most effective in capturing features from both the time and frequency domains. Finally, they talked about error analysis techniques. All the information gathered here were essential in helping me complete a successful project.</p>
+
+<br>
+<b>References</b><br>
+<p>
+[1] Bahuleyan, H., 2018. Music Genre Classification using Machine Learning Techniques. University of Waterloo. DOI: https://arxiv.org/pdf/1804.01149.pdf
+</p>
+<p>
+[2] Nasrullah, Z., Zhao, Y., 2019. Multimodal Deep Learning for Music Genres Classification. Department of Computer Science, University of Toronto. DOI: https://arxiv.org/pdf/1901.04555.pdf 
+</p>
+<p>
+[3] Oramas, S., Barbieri, F., Nieto, O. and Serra, X., 2018. Multimodal Deep Learning for Music Genre Classification. Transactions of the International Society for Music Information Retrieval, 1(1), pp.4–21. DOI: https://transactions.ismir.net/articles/10.5334/tismir.10/
+</p>
+    </div>
+
+
 
     <div class="card">
       <h2 id="20190111">Implications of AlphaZero and Boardgame AIs</h2>
@@ -187,6 +220,7 @@ Go | DeepMind. [online] Available at: https://deepmind.com/blog/alphazero-sheddi
       <h2 id="20181107">Are credit-ranking systems inherently unethical?</h2>
       <h5>Ethical Analysis Paper, Nov. 7, 2018</h5>
       <img src="pics/credit.jpg" alt="Power Lines" style="width:80%;">
+
 <p>In a world dominated by artificial intelligence, it is common for data-driven algorithms to replace human decision-making. However, it has been revealed that in many applications, the composition of data used by the algorithms can skew their decisions, thus marginalizing some under-represented or disadvantaged groups in the data. This results in unethical decisions being made that reinforces stereotypes and systematic discrimination. </p>
 
 <p>One example is banks using algorithms to determine credit scores of individual borrowers when lending money. It is important since people often need to borrow money to make large purchases or start businesses. A lower credit score will prevent some from these opportunities to improve their standard of living, thus widening the economic gap [1]. Even though it is illegal to take race into account of credit, studies have shown that there is a great disparity in average credit scores between races [2]. This is mainly caused by factors used to determine credit scores, such as income, debt, family credit history, and location. These factors often reflect deep racial trends (for instance, poorer neighborhoods dominated by African Americans have lower income and higher debt), resulting in lower credit scores for these people [1]. These marginalized groups are thus given less opportunity to improve their situations (for instance, less loans to receive higher education or to start a business), which reinforces their marginalization. This results in a feedback loop that is systemically discriminating and widens the economic gap between groups.</p>
@@ -707,6 +741,7 @@ Most of the information is based on the official website of each location [1] [2
   <div class="rightcolumn">
     <div class="card">
       <h2>Table of Contents</h2>
+      <li><a href="#20190403">Apr. 3, 2019: Music Genre Classification using Deep Learning</a></li>
       <li><a href="#20190111">Jan. 11, 2019: Implications of AlphaZero and Boardgame AIs</a></li>
       <li><a href="#20181107">Nov. 7, 2018: Are credit-ranking systems inherently unethical?</a></li>
       <li><a href="#20171204">Dec. 4, 2017: The Missing Technological Link to Renewable Energy Systems</a></li>
