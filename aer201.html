@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<div w3-include-html="head.html"></div>
+<script src=""https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+<script> 
+$(function(){
+  $("#head").load("head.html"); 
+  $("#menu").load("menu.html"); 
+  $("#foot").load("foot.html"); 
+});
+</script> 
 
-<div w3-include-html="menu.html"></div>
+<div id="head"></div>
+<div id="menu"></div>
+
 
 <div style="padding: 0% 10% 0% 10%; margin-top:170px; min-height:800px;">
 
 <body style="background-color: #ccccff;">
+
 
 <!--Main-->
 <title>Pill Packaging Machine - Bill Sun</title>
@@ -39,7 +49,7 @@
 
 <br><br><br>
 
-<div w3-include-html="footer.html"></div>
+<div id="foot"></div>
 
 </body>
 </html>﻿
