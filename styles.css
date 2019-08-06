@@ -178,6 +178,16 @@ a:hover {
     text-align: justify;
     color: white;
 }
+.box p a{
+    text-decoration: none;
+    color: #ffbfbf; 
+    padding: 0;
+}
+.box p a:hover{
+    text-decoration: underline;
+    color: #ffbfbf; 
+    padding: 0;
+}
 .box ul{
     margin: 0;
     padding: 0;
