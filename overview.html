@@ -133,86 +133,167 @@ p a:hover{
 .good {width: 67%; background-color: #888888;}
 .familiar {width: 33%; background-color: #888888;}
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 </style>
 
 
 <table style="width:100%">
   <tr>
-    <th><h3>Programming</h3></th>
-    <th><h3>Other Technologies</h3></th> 
-    <th><h3>Engineering & Leadership</h3></th>
+      <th><h3>Programming</h3></th>
+      <th><h3>Other Technologies</h3></th> 
+      <th><h3>Engineering & Leadership</h3></th>
   </tr>
+
   <tr>
-    <td><i class="fab fa-python fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <td><div class="tooltip"><i class="fab fa-python fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">Python</span></div>
       <div class="container"><div class="skills fluent"></div></div></td>
-    <td><i class="fas fa-database fa-3x" style="color:#FFFFFF; margin:5px"></i>
+
+      <td><div class="tooltip"><i class="fas fa-database fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">SQL / Databases</span></div>
       <div class="container"><div class="skills fluent"></div></div></td>
-    <td><p><b>Engineering Design Process</b></p>
+
+      <td><p><b>Engineering Design Process</b></p>
       <div class="container"><div class="skills fluent"></div></div></td>
   </tr>
+
   <tr>
-    <td><i class="fab fa-java fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <td><div class="tooltip"><i class="fab fa-java fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">Java</span></div>
       <div class="container"><div class="skills good"></div></div></td>
-    <td><i class="fab fa-aws fa-3x" style="color:#FFFFFF; margin:5px"></i>
+
+      <td><div class="tooltip"><i class="fab fa-aws fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">Amazon Web Services</span></div>
       <div class="container"><div class="skills good"></div></div></td>
-    <td><p><b>Agile Methodology</b></p>
+
+      <td><p><b>Agile Methodology</b></p>
       <div class="container"><div class="skills good"></div></div></td>
   </tr>
+
   <tr>
-    <td><i><img src="logos/c.png" alt="Python" width=42 style="margin:5px"></i>
+      <td><div class="tooltip"><i><img src="logos/c.png" alt="Python" width=42 style="margin:5px"></i>
+      <span class="tooltiptext">C</span></div>
       <div class="container"><div class="skills familiar"></div></div></td>
-    <td><i><img src="logos/google-cloud.png" alt="Python" width=50 style="margin:0px 5px"></i>
+
+      <td><div class="tooltip"><i><img src="logos/google-cloud.png" alt="Python" width=50 style="margin:0px 5px"></i>
+      <span class="tooltiptext">Google Cloud</span></div>
       <div class="container"><div class="skills good"></div></div></td>
-    <td><p><b>Software Development Cycle</b></p>
+
+      <td><p><b>Software Development Cycle</b></p>
       <div class="container"><div class="skills good"></div></div></td>
   </tr>
+
   <tr>
-    <td><i><img src="logos/cpp.png" alt="Python" width=42 style="margin:5px"></i>
+      <td><div class="tooltip"><i><img src="logos/cpp.png" alt="Python" width=42 style="margin:5px"></i>
+      <span class="tooltiptext">C++</span></div>
       <div class="container"><div class="skills familiar"></div></div></td>
-    <td><i class="fab fa-linux fa-3x" style="color:#FFFFFF; margin:5px"></i>
+
+      <td><div class="tooltip"><i class="fab fa-linux fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">Linux</span></div>
       <div class="container"><div class="skills good"></div></div></td>
-    <td><p><b>DevOps</b></p>
+
+      <td><p><b>DevOps</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
+  </tr>
+
+  <tr>
+      <td><div class="tooltip"><i class="fab fa-node-js fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">Node.js</span></div>
       <div class="container"><div class="skills familiar"></div></div></td>
-  </tr>
-  <tr>
-    <td><i class="fab fa-node-js fa-3x" style="color:#FFFFFF; margin:5px"></i>
+
+      <td><div class="tooltip"><i class="fab fa-react fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">React.js</span></div>
       <div class="container"><div class="skills good"></div></div></td>
-    <td><i class="fab fa-react fa-3x" style="color:#FFFFFF; margin:5px"></i>
-      <div class="container"><div class="skills good"></div></div></td>
-    <td><p><b>Event Organization</b></p>
-      <div class="container"><div class="skills good"></div></div></td>
-  </tr>
-  <tr>
-    <td><i class="fab fa-js-square fa-3x" style="color:#FFFFFF; margin:5px"></i>
-      <div class="container"><div class="skills good"></div></div></td>
-    <td><i><img src="logos/excel.png" alt="Python" width=45 style="margin:0px 5px"></i>
-      <div class="container"><div class="skills fluent"></div></div></td>
-    <td><p><b>Teamwork</b></p>
-      <div class="container"><div class="skills fluent"></div></div></td>
-  </tr>
-  <tr>
-    <td><i class="fab fa-html5 fa-3x" style="color:#FFFFFF; margin:5px"></i>
-      <div class="container"><div class="skills fluent"></div></div></td>
-    <td><i><img src="logos/tensorflow.png" alt="Python" width=45 style="margin:0px 5px"></i>
-      <div class="container"><div class="skills good"></div></div></td>
-    <td><p><b>Project Management</b></p>
+
+      <td><p><b>Event Organization</b></p>
       <div class="container"><div class="skills good"></div></div></td>
   </tr>
+
   <tr>
-    <td><i class="fab fa-css3 fa-3x" style="color:#FFFFFF; margin:5px"></i>
-      <div class="container"><div class="skills fluent"></div></div></td>
-    <td><i><img src="logos/pytorch.png" alt="Python" width=45 style="margin:0px 5px"></i>
-      <div class="container"><div class="skills fluent"></div></div></td>
-    <td><p><b>Public Speaking</b></p>
-      <div class="container"><div class="skills fluent"></div></div></td>
-  </tr>
-  <tr>
-    <td><i><img src="logos/matlab.png" alt="Python" width=45 style="margin:0px 5px"></i>
-      <div class="container"><div class="skills good"></div></div></td>
-    <td><i><img src="logos/keras.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <td><div class="tooltip"><i class="fab fa-js-square fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">JavaScript</span></div>
       <div class="container"><div class="skills familiar"></div></div></td>
-    <td><p><b>Mentoring</b></p>
+
+      <td><div class="tooltip"><i><img src="logos/excel.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <span class="tooltiptext">Microsoft Excel</span></div>
+      <div class="container"><div class="skills good"></div></div></td>
+
+      <td><p><b>Teamwork</b></p>
       <div class="container"><div class="skills fluent"></div></div></td>
+  </tr>
+
+  <tr>
+      <td><div class="tooltip"><i class="fab fa-html5 fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">HTML</span></div>
+      <div class="container"><div class="skills good"></div></div></td>
+
+      <td><div class="tooltip"><i><img src="logos/tensorflow.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <span class="tooltiptext">Tensorflow</span></div>
+      <div class="container"><div class="skills good"></div></div></td>
+
+      <td><p><b>Project Management</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
+  </tr>
+
+  <tr>
+      <td><div class="tooltip"><i class="fab fa-css3 fa-3x" style="color:#FFFFFF; margin:5px"></i>
+      <span class="tooltiptext">CSS</span></div>
+      <div class="container"><div class="skills good"></div></div></td>
+
+      <td><div class="tooltip"><i><img src="logos/pytorch.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <span class="tooltiptext">PyTorch</span></div>
+      <div class="container"><div class="skills fluent"></div></div></td>
+
+      <td><p><b>Public Speaking</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
+  </tr>
+
+  <tr>
+      <td><div class="tooltip"><i><img src="logos/matlab.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <span class="tooltiptext">MATLAB</span></div>
+      <div class="container"><div class="skills good"></div></div></td>
+
+      <td><div class="tooltip"><i><img src="logos/docker.png" alt="Python" width=45 style="margin:0px 5px"></i>
+      <span class="tooltiptext">Docker</span></div>
+      <div class="container"><div class="skills familiar"></div></div></td>
+
+      <td><p><b>Mentoring</b></p>
+      <div class="container"><div class="skills good"></div></div></td>
   </tr>
 </table>
 <br> 
