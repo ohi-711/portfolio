@@ -14,6 +14,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    min-width: 600px;
 }
 
 @media (min-width: 550px){
@@ -118,6 +119,8 @@ body {
     background-size: cover;
     font-family: Open Sans, sans-serif;
     color: black;
+    min-width: 600px;
+    width: 100%;
 }
 
 p {
@@ -174,6 +177,16 @@ a:hover {
 .box p{
     text-align: justify;
     color: white;
+}
+.box p a{
+    text-decoration: none;
+    color: #ffbfbf; 
+    padding: 0;
+}
+.box p a:hover{
+    text-decoration: underline;
+    color: #ffbfbf; 
+    padding: 0;
 }
 .box ul{
     margin: 0;
@@ -291,9 +304,7 @@ form.example::after {
 /* Portfolio Clickable Images with Pop up */
 .item{
     z-index: 0;
-    margin: 1.6667%;
     position: relative;
-    width: 30%;
     height: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -319,39 +330,63 @@ form.example::after {
     margin: 1em;
 }
 
-@media (min-width: 37rem){
+@media screen and (max-width: 750px){
     .item{
-	width:50%;
-	float:left;
-	overflow: hidden;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .desc{
     	width:100%;
-	transform: translateY(150%);
+	    transform: translateY(150%);
     }
 
     .item:hover .desc{
-	transform: translateY(0%);
+	    transform: translateY(0%);
     }
 }
 
-@media (min-width: 60rem){
+@media screen and (min-width: 750px){
     .item{
-	width:30%;
-	overflow: hidden;
+        width: 45%;
+        max-width: 400px;
+        float: left;
+        overflow: hidden;
+        margin: 2.5%;
     }
 
     .desc{
     	width:100%;
-	transform: translateY(150%);
+	    transform: translateY(150%);
     }
 
     .item:hover .desc{
-	transform: translateY(0%);
+	    transform: translateY(0%);
     }
 }
 
+@media screen and (min-width: 1170px){
+    .item{
+        width: 30%;
+        max-width: 400px;
+        float: left;
+        overflow: hidden;
+        margin: 1.6667%;
+    }
+
+    .desc{
+    	width:100%;
+	    transform: translateY(150%);
+    }
+
+    .item:hover .desc{
+	    transform: translateY(0%);
+    }
+}
 
 /* Table of Contents */
 #toc_container {
