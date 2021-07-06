@@ -1,5 +1,6 @@
 "use strict";
 
+// Scrolling
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (currentScrollPos > 20) {
@@ -10,6 +11,7 @@ window.onscroll = function() {
 }
 
 
+// Header
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
