@@ -1,24 +1,13 @@
 "use strict";
 
 // Scrolling
-/*
-window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (currentScrollPos > 20) {
-        document.getElementById("navbar").style.display = "none";
-    } else {
-        document.getElementById("navbar").style.display = "initial";
-    }
-}
-*/
-
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
+        document.getElementsByClassName("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementsByClassName("navbar").style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
 }
@@ -30,7 +19,6 @@ class Head extends HTMLElement {
         this.innerHTML = 
         `
         <head>
-
             <!--Website Information -->
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +29,6 @@ class Head extends HTMLElement {
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
             <link rel="icon" type="image/png" href="logos/b.png" sizes="32x32">
-        
         </head>
 
         `
