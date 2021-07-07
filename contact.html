@@ -1,59 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="styles.js"></script>
+<main-head></main-head>
 
-    <!--Website Information -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Bill Sun's Personal Portfolio">
-    <meta name="author" content="Bill (Yuan Hong) Sun">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="logos/b.png" sizes="32x32">
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="styles.js"></script>
+<style>
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
 
-    <style>
-        input[type=text],
-        input[type=email],
-        select,
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
+    input[type=submit] {
+        background-color: #4d4dff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
-        input[type=submit] {
-            background-color: #4d4dff;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+    input[type=submit]:hover {
+        background-color: #0000cc;
+    }
 
-        input[type=submit]:hover {
-            background-color: #0000cc;
-        }
+    .container {
+        border-radius: 5px;
+        background-color: #cccccc;
+        padding: 20px;
+    }
+</style>
 
-        .container {
-            border-radius: 5px;
-            background-color: #cccccc;
-            padding: 20px;
-        }
-    </style>
-
-</head>
-
-<!--Menu-->
 <main-header></main-header>
 
 <div style="padding: 0% 10% 0% 10%; margin-top:170px; min-height:800px;">
@@ -115,7 +101,5 @@
     </div>
 </body>
 
-<!--Footer-->
 <main-footer></main-footer>
-
 </html>

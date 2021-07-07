@@ -11,7 +11,32 @@ window.onscroll = function() {
 }
 
 
-// Header
+// Head
+class Head extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = 
+        `
+        <head>
+
+            <!--Website Information -->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="description" content="Bill Sun's Portfolio">
+            <meta name="author" content="Bill (Yuan Hong) Sun">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+            <link rel="stylesheet" href="styles.css">
+            <link rel="icon" type="image/png" href="logos/b.png" sizes="32x32">
+        
+        </head>
+
+        `
+    }
+}
+
+
+// Header (Navigation bar)
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
@@ -102,5 +127,6 @@ class Footer extends HTMLElement {
     }
 }
 
+customElements.define('main-head', Head);
 customElements.define('main-header', Header);
 customElements.define('main-footer', Footer);
