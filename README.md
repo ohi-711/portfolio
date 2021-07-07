@@ -1,4 +1,5 @@
 ## Bill Sun's Portfolio Website
 
-This is a portfolio of my skills, experiences, and insights. It includes coursework and projects in engineering, coding, and design, extracurricular activities, and my reflections in engineering design, as well as applying engineering in daily life.
+billyhsun.github.io/portfolio/
 
+This is a portfolio of my skills, experiences, and insights. It includes description of my experiences, coursework, and projects in engineering, coding, and design, extracurricular activities, my reflections in engineering design, as well as applying engineering in daily life.

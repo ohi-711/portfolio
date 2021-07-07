@@ -5,6 +5,123 @@
 <script src="styles.js"></script>
 <main-head></main-head>
 <main-header></main-header>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<style>
+    box {
+        font-size: 15px;
+        padding: 7px 10px 7px 10px;
+        margin: 0px 5px 0px 5px;
+        height: 29px;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+    }
+
+    .titleabout {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    table {
+        table-layout: fixed;
+    }
+
+    th,
+    td {
+        text-align: center;
+    }
+
+    p a {
+        text-decoration: none;
+        color: #ffbfbf;
+        padding: 0;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+        color: #ffbfbf;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #ddd;
+    }
+
+    .skills {
+        text-align: right;
+        padding: 5px;
+        color: white;
+    }
+
+    .fluent {
+        width: 100%;
+        background-color: #888888;
+    }
+
+    .good {
+        width: 67%;
+        background-color: #888888;
+    }
+
+    .familiar {
+        width: 33%;
+        background-color: #888888;
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent black transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+</style>
+
 
 <div style="padding: 0% 10% 0% 10%; margin-top:170px; min-height:500px;">
 
@@ -41,121 +158,6 @@
             <br><br><br>
 
         <h2 id="skills" style="text-align:center;">Skills Summary</h2>
-
-        <style>
-            box {
-                font-size: 15px;
-                padding: 7px 10px 7px 10px;
-                margin: 0px 5px 0px 5px;
-                height: 29px;
-                text-align: center;
-            }
-
-            p {
-                color: white;
-            }
-
-            .titleabout {
-                color: white;
-            }
-
-            h2 {
-                color: white;
-            }
-
-            h3 {
-                color: white;
-            }
-
-            table {
-                table-layout: fixed;
-            }
-
-            th,
-            td {
-                text-align: center;
-            }
-
-            p a {
-                text-decoration: none;
-                color: #ffbfbf;
-                padding: 0;
-            }
-
-            p a:hover {
-                text-decoration: underline;
-                color: #ffbfbf;
-                padding: 0;
-            }
-
-            .container {
-                width: 80%;
-                margin-left: 10%;
-                margin-top: 5px;
-                margin-bottom: 5px;
-                background-color: #ddd;
-            }
-
-            .skills {
-                text-align: right;
-                padding: 5px;
-                color: white;
-            }
-
-            .fluent {
-                width: 100%;
-                background-color: #888888;
-            }
-
-            .good {
-                width: 67%;
-                background-color: #888888;
-            }
-
-            .familiar {
-                width: 33%;
-                background-color: #888888;
-            }
-
-            .tooltip {
-                position: relative;
-                display: inline-block;
-                border-bottom: 1px dotted black;
-            }
-
-            .tooltip .tooltiptext {
-                visibility: hidden;
-                width: 120px;
-                background-color: black;
-                color: #fff;
-                text-align: center;
-                border-radius: 6px;
-                padding: 5px 0;
-                position: absolute;
-                z-index: 1;
-                top: -5px;
-                left: 110%;
-                opacity: 0;
-                transition: opacity 0.3s;
-            }
-
-            .tooltip .tooltiptext::after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                margin-top: -5px;
-                border-width: 5px;
-                border-style: solid;
-                border-color: transparent black transparent transparent;
-            }
-
-            .tooltip:hover .tooltiptext {
-                visibility: visible;
-                opacity: 1;
-            }
-        </style>
-
 
         <table style="width:100%">
             <tr>
