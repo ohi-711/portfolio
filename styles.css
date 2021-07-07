@@ -3,6 +3,9 @@
     transition: all ease-in-out 0.02s;
 }
 
+html,body{
+    overflow-x: hidden;
+}
 
 /* Top Menu Bar */
 .navbar {
@@ -253,7 +256,7 @@ a:hover {
     display: inline-block;
     float: right;
     position: relative;
-    right: 20px;
+    right: 35px;
     bottom: 35px;
 }
 
@@ -346,7 +349,7 @@ a:hover {
     }
 
     .desc{
-    	width:100%;
+    	width: 100%;
 	    transform: translateY(150%);
     }
 
