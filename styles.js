@@ -25,7 +25,6 @@ class Head extends HTMLElement {
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="description" content="Bill Sun's Portfolio">
             <meta name="author" content="Bill (Yuan Hong) Sun">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
             <link rel="icon" type="image/png" href="logos/b.png" sizes="32x32">
@@ -112,7 +111,6 @@ class Footer extends HTMLElement {
 			<div class="socialmedia">
 				<a href="https://github.com/billyhsun"><i class="fab fa-github" aria-hidden="true"></i></a>
 				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-				<a href="https://angel.co/bill-sun-1"><i class="fab fa-angellist"></i></a>
 				<a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
                 <a href="https://www.facebook.com/billyuanhong.sun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
@@ -126,6 +124,14 @@ class Footer extends HTMLElement {
         `
     }
 }
+
+/* More links
+<a href="https://angel.co/bill-sun-1"><i class="fab fa-angellist"></i></a>
+<a href="https://stackoverflow.com/users/11026180/bill-sun"><i class="fab fa-stack-overflow"></i></a>
+<a href="https://www.kaggle.com/billyhsun"><i class="fab fa-kaggle"></i></a>
+<a href="https://twitter.com/byhsun"><i class="fab fa-twitter"></i></a>
+<a href="https://thewanderingengineer.medium.com/"><i class="fab fa-medium-m"></i></a>
+*/
 
 customElements.define('main-head', Head);
 customElements.define('main-header', Header);
