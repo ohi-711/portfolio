@@ -7,7 +7,7 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar123").style.top = "0";
     } else {
-        document.getElementById("navbar123").style.top = "-70px";
+        document.getElementById("navbar123").style.top = "-60px";
     }
     prevScrollpos = currentScrollPos;
 }
@@ -50,13 +50,12 @@ class Header extends HTMLElement {
                 </button>
                 <div class="dropdown-content">
                     <a href="toastmasters.html">Toastmasters</a>
-                    <a href="solarcar.html">Blue Sky Solar Racing Team, University of Toronto</a>
-                    <a href="ewb.html">Engineers Without Borders, University of Toronto</a>
-                    <a href="ilead.html">iLead The Game, University of Toronto</a>
-                    <a href="deep.html">DEEP Summer Academy, University of Toronto</a>
-                    <a href="fes.html">Future Engineers Society, Earl Haig Secondary School</a>
-                    <a href="swim.html">Swimming and Lifeguarding</a>
-                    <a href="weather.html">Earth Sciences Hobby Research</a>
+                    <a href="ewb.html">Engineers Without Borders - University of Toronto</a>
+                    <a href="solarcar.html">Blue Sky Solar Racing Team - University of Toronto</a>
+                    <a href="ilead.html">iLead The Game - University of Toronto</a>
+                    <a href="deep.html">DEEP Summer Academy - University of Toronto</a>
+                    <a href="swim.html">Swimming and Lifeguarding - City of Toronto</a>
+                    <a href="weather.html">Hobbies</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -65,7 +64,6 @@ class Header extends HTMLElement {
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="capstone.html">Undergraduate Capstone Project</a>
                     <a href="https://survey-demo.deepaffex.ai/login">Mental Health Questionnaire Website</a>
                     <a href="https://github.com/billyhsun/MusicGenre">Music Genre Classifier</a>
                     <a href="https://devpost.com/software/surroundsound-1u9ljk">Music Sharing App</a>
@@ -82,8 +80,9 @@ class Header extends HTMLElement {
                 </button>
                 <div class="dropdown-content">
                     <a href="pey.html">Data Science Software Developer - Nuralogix</a>
-                    <a href="research.html">Transportation Modelling Research</a>
-                    <a href="thesis.html">Undergraduate Thesis</a>
+                    <a href="capstone.html">Capstone Project - Public Health Ontario</a>
+                    <a href="thesis.html">Undergraduate Thesis - University of Toronto</a>
+                    <a href="research.html">Transportation Modelling Research - University of Toronto</a>
                 </div>
             </div>
             <div class="button"><a href="overview.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">About
@@ -109,14 +108,13 @@ class Footer extends HTMLElement {
 				<font color=#cccccc>Copyright 2018 © Bill Yuan Hong Sun</font>
 
 			<div class="socialmedia">
-				<a href="https://github.com/billyhsun"><img src="logos/github.png" alt="gh" width=30></a>
-				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><img src="logos/linkedin.png" alt="li"
-						width=30></a>
+				<a href="https://github.com/billyhsun"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fa fa-linkedin-square" aria-hidden="true"></a>
 				<a href="https://angel.co/bill-sun-1"><img src="logos/angellist.png" alt="li" width=30></a>
 				<a href="https://devpost.com/billyhsun"><img src="logos/devpost.png" alt="devpost" width=30></a>
-				<a href="https://stackoverflow.com/users/11026180/bill-sun"><img src="logos/stackoverflow.png" alt="li"
-						width=30></a>
-				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><img src="logos/outlook.png" alt="mail" width=30></a>
+                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fa fa-facebook-square" aria-hidden="true"></a>
+				<a href="https://www.instagram.com/billyhsun/"><i class="fa fa-instagram-square" aria-hidden="true"></a>
+				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fa fa-envelope-square" aria-hidden="true"></a>
 			</div>
 
 			</p>
