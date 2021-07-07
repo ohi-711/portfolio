@@ -1,6 +1,7 @@
 "use strict";
 
 // Scrolling
+/*
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (currentScrollPos > 20) {
@@ -8,6 +9,18 @@ window.onscroll = function() {
     } else {
         document.getElementById("navbar").style.display = "initial";
     }
+}
+*/
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
 }
 
 
