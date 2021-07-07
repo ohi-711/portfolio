@@ -5,9 +5,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.getElementsByClassName("navbar").style.top = "0";
+        document.getElementById("navbar123").style.top = "0";
     } else {
-        document.getElementsByClassName("navbar").style.top = "-50px";
+        document.getElementById("navbar123").style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
 }
@@ -40,7 +40,7 @@ class Head extends HTMLElement {
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-        <div class="navbar" style="z-index: 2;">
+        <div class="navbar" id="navbar123" style="z-index: 2;">
             <div class="button"><a href="blogs.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">Blog</a>
             </div>
             <div class="dropdown">
