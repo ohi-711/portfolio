@@ -3,7 +3,7 @@
     transition: all ease-in-out 0.02s;
 }
 
-html,body{
+html, body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
