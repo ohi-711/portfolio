@@ -29,6 +29,8 @@ class Head extends HTMLElement {
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
             <link rel="icon" type="image/png" href="logos/b.png" sizes="32x32">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         </head>
 
         `
@@ -112,7 +114,7 @@ class Footer extends HTMLElement {
 				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
 				<a href="https://angel.co/bill-sun-1"><i class="fab fa-angellist"></i></a>
 				<a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
-                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fas fa-envelope" aria-hidden="true"></i></a>
 			</div>

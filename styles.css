@@ -258,8 +258,8 @@ a:hover {
 }
 
 .socialmedia a i{
-    font-size: 30px;
-    padding: 5px;
+    font-size: 25px;
+    padding: 3px;
     color: #cccccc;
     transition: all ease-in-out 0.1s;
 }
