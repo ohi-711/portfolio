@@ -255,11 +255,11 @@ a:hover {
     position: relative;
     right: 30px;
     bottom: 35px;
-    margin: 5px;
 }
 
 .socialmedia a i{
     font-size: 30px;
+    padding: 5px;
     color: #cccccc;
     transition: all ease-in-out 0.1s;
 }
