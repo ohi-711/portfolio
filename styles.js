@@ -51,11 +51,11 @@ class Header extends HTMLElement {
                 </button>
                 <div class="dropdown-content">
                     <a href="toastmasters.html">Toastmasters</a>
-                    <a href="ewb.html">Engineers Without Borders - University of Toronto</a>
+                    <a href="ewb.html">Engineers Without Borders - High School / University of Toronto</a>
                     <a href="solarcar.html">Blue Sky Solar Racing Team - University of Toronto</a>
                     <a href="ilead.html">iLead The Game - University of Toronto</a>
-                    <a href="deep.html">DEEP Summer Academy - University of Toronto</a>
-                    <a href="swim.html">Swimming and Lifeguarding - City of Toronto</a>
+                    <a href="deep.html">DEEP Summer Academy - High School / University of Toronto</a>
+                    <a href="swim.html">Swimming and Lifeguarding - High School / City of Toronto</a>
                     <a href="weather.html">Hobbies</a>
                 </div>
             </div>
