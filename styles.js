@@ -109,12 +109,12 @@ class Footer extends HTMLElement {
 
 			<div class="socialmedia">
 				<a href="https://github.com/billyhsun"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fa fa-linkedin-square" aria-hidden="true"></a>
+				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 				<a href="https://angel.co/bill-sun-1"><img src="logos/angellist.png" alt="li" width=30></a>
 				<a href="https://devpost.com/billyhsun"><img src="logos/devpost.png" alt="devpost" width=30></a>
-                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fa fa-facebook-square" aria-hidden="true"></a>
-				<a href="https://www.instagram.com/billyhsun/"><i class="fa fa-instagram-square" aria-hidden="true"></a>
-				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fa fa-envelope-square" aria-hidden="true"></a>
+                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/billyhsun/"><i class="fa fa-instagram-square" aria-hidden="true"></i></a>
+				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 			</div>
 
 			</p>
