@@ -13,7 +13,7 @@ html, body{
     background-color: #4d4d4d;
     font-family: 'Open Sans', sans-serif;
     position: fixed;
-    color: white;
+    color: #EEEEEE;
     left: 0;
     top: 0;
     width: 100%;
@@ -34,7 +34,7 @@ html, body{
     right: 8%;
     top: 5px;
     font-size: 15px;
-    color: white;
+    color: #EEEEEE;
     text-align: center;
     padding: 15px 0px 15px 0px;
     text-decoration: none;
@@ -53,7 +53,7 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
     font-size: 19pt;
-    color: #dddddd;
+    color: #DDDDDD;
 }
 
 .navbar .logo :hover{
@@ -74,7 +74,7 @@ html, body{
     font-size: 15px;    
     border: none;
     outline: none;
-    color: white;
+    color: #EEEEEE;
     padding: 15px 15px 15px 15px;
     background-color: #4d4d4d;
     font-family: inherit;
@@ -83,6 +83,7 @@ html, body{
 
 .button:hover, .dropbtn:hover {
     background-color: #666666;
+    color: #FFFFFF;
 }
 
 .dropdown-content {
@@ -97,7 +98,7 @@ html, body{
 
 .dropdown-content a {
     float: none;
-    color: white;
+    color: #EEEEEE;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -106,7 +107,7 @@ html, body{
 
 .dropdown-content a:hover {
     background-color: #737373;
-    color: white;
+    color: #FFFFFF;
 }
 
 .dropdown-content a:hover .dropbtn {
@@ -263,11 +264,11 @@ a:hover {
 .socialmedia a i{
     font-size: 25px;
     padding: 3px;
-    color: #cccccc;
+    color: #AAAAAA;
     transition: all ease-in-out 0.1s;
 }
 .socialmedia a i:hover{
-    color: #aaaaaa;
+    color: #CCCCCC;
 }
 
 
