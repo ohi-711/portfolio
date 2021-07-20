@@ -135,7 +135,7 @@ p {
 }
 
 li {
-    color: #262626;
+    color: inherit;
     line-height: 1.6;
 }
 
