@@ -125,11 +125,12 @@ body {
     font-family: Open Sans, sans-serif;
     min-width: 600px;
     width: 100%;
-    color: inherit;
+    color: #EEEEEE;
+    background-color: #333333;
 }
 
 p {
-    color: #262626;
+    color: inherit;
     line-height: 1.65;
 }
 
@@ -143,7 +144,7 @@ a {
 }
 
 a:hover {
-    color: #333333;
+    color: #ffbfbf;
     text-decoration: none;
 }
 
