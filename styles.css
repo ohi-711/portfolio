@@ -148,7 +148,7 @@ a:hover {
 
 
 /* Intro Box */
-.box{
+.box {
     width: 500px;
     background: rgba(25, 26, 26, 0.507);
     padding: 20px;
@@ -161,7 +161,7 @@ a:hover {
     opacity: 1;
     border: 5px groove white;
 }
-.box-img{
+.box-img {
     border-radius: 5%;
     max-width: 100%;
     max-height: 100%;
@@ -169,49 +169,49 @@ a:hover {
     height: auto;
     margin-top: 40px;
 }
-.box h1{
+.box h1 {
     font-size: 40px;
     letter-spacing: 3px;
     font-weight: 100;
 }
-.box h5{
+.box h5 {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 100;
 }
-.box p{
+.box p {
     text-align: justify;
     color: white;
 }
-.box p a{
+.box p a {
     text-decoration: none;
     color: #ffbfbf; 
     padding: 0;
 }
-.box p a:hover{
+.box p a:hover {
     text-decoration: underline;
     color: #ffbfbf; 
     padding: 0;
 }
-.box ul{
+.box ul {
     margin: 0;
     padding: 0;
 }
-.box li{
+.box li {
     display: inline-block;
     margin: 6px;
     list-style: none;
 }
-.box li a{
+.box li a {
     color: white;
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 0.1s;
 }
-.box li a:hover{
+.box li a:hover {
     color: #b9b9b9;
 }
-.box button{
+.box button {
     background-color: #4A4A4A;
     width: 88px;
     padding: 10px;
@@ -226,12 +226,12 @@ a:hover {
     color: #2d2d2d;
     cursor: pointer;
 }
-.box a{
+.box a {
     color: white;
     text-decoration: none;
     padding: 5px;
 }
-.box button:hover{
+.box button:hover {
     background-color: #686868;
 }
 
