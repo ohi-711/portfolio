@@ -70,7 +70,6 @@ class Header extends HTMLElement {
                     <a href="game.html">Boxhead Video Game</a>
                     <a href="parking.html">Parking Manager App Simulator</a>
                     <a href="aer201.html">Autonomous Pill Packaging Machine</a>
-                    <a href="praxis.html">Engineering Design Course</a>
                 </div>
             </div>
             <div class="dropdown">
