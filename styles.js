@@ -78,9 +78,10 @@ class Header extends HTMLElement {
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="pey.html">Data Science Software Developer - Nuralogix</a>
+                    <a href="thesis.html">Research Experience & Publications</a>
+                    <a href="https://www.kinaxis.com/en">Machine Learning Engineer - Kinaxis</a>
+                    <a href="https://www.nuralogix.ai/">Data Science Software Developer - Nuralogix</a>
                     <a href="capstone.html">Capstone Project - Public Health Ontario</a>
-                    <a href="thesis.html">Undergraduate Thesis - University of Toronto</a>
                     <a href="research.html">Transportation Modelling Research - University of Toronto</a>
                 </div>
             </div>
@@ -104,7 +105,7 @@ class Footer extends HTMLElement {
 			<br>
 
 			<p style="margin-left: 2%;">
-				<font color=#cccccc>Copyright 2018 © Bill Yuan Hong Sun</font>
+				<font color=#cccccc>Copyright 2018-2022 © Bill Yuan Hong Sun</font>
 
 			<div class="socialmedia">
 				<a href="https://github.com/billyhsun"><i class="fab fa-github" aria-hidden="true"></i></a>
