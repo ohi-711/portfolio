@@ -44,21 +44,6 @@ class Header extends HTMLElement {
             <div class="button"><a href="blogs.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">Blog</a>
             </div>
             <div class="dropdown">
-                <button class="dropbtn"><a href="clubs.html"
-                        style="color: #e6e6e6; text-decoration: none; padding: 15px 0px">Extracurriculars</a>
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="toastmasters.html">Toastmasters</a>
-                    <a href="ewb.html">Engineers Without Borders - High School / University of Toronto</a>
-                    <a href="solarcar.html">Blue Sky Solar Racing Team - University of Toronto</a>
-                    <a href="ilead.html">iLead The Game - University of Toronto</a>
-                    <a href="deep.html">DEEP Summer Academy - High School / University of Toronto</a>
-                    <a href="swim.html">Swimming and Lifeguarding - High School / City of Toronto</a>
-                    <a href="weather.html">Hobbies</a>
-                </div>
-            </div>
-            <div class="dropdown">
                 <button class="dropbtn"><a href="projects.html"
                         style="color: #e6e6e6; text-decoration: none; padding: 15px 0px">Projects</a>
                     <i class="fa fa-caret-down"></i>
@@ -78,7 +63,7 @@ class Header extends HTMLElement {
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="thesis.html">Research Experience & Publications</a>
+                    <a href="thesis.html">Research & Publications</a>
                     <a href="https://www.kinaxis.com/en">Machine Learning Engineer - Kinaxis</a>
                     <a href="https://www.nuralogix.ai/">Data Science Software Developer - Nuralogix</a>
                     <a href="capstone.html">Capstone Project - Public Health Ontario</a>
@@ -130,6 +115,22 @@ class Footer extends HTMLElement {
 <a href="https://www.kaggle.com/billyhsun"><i class="fab fa-kaggle"></i></a>
 <a href="https://twitter.com/byhsun"><i class="fab fa-twitter"></i></a>
 <a href="https://thewanderingengineer.medium.com/"><i class="fab fa-medium-m"></i></a>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="clubs.html"
+                        style="color: #e6e6e6; text-decoration: none; padding: 15px 0px">Extracurriculars</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="toastmasters.html">Toastmasters</a>
+                    <a href="ewb.html">Engineers Without Borders - High School / University of Toronto</a>
+                    <a href="solarcar.html">Blue Sky Solar Racing Team - University of Toronto</a>
+                    <a href="ilead.html">iLead The Game - University of Toronto</a>
+                    <a href="deep.html">DEEP Summer Academy - High School / University of Toronto</a>
+                    <a href="swim.html">Swimming and Lifeguarding - High School / City of Toronto</a>
+                    <a href="weather.html">Hobbies</a>
+                </div>
+            </div>
 */
 
 customElements.define('main-head', Head);
