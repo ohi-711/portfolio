@@ -95,7 +95,8 @@ class Footer extends HTMLElement {
 			<div class="socialmedia">
 				<a href="https://github.com/billyhsun"><i class="fab fa-github" aria-hidden="true"></i></a>
 				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-				<a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
+                <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun"><i class="fab fa-researchgate"></i></a>
+                <a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
                 <a href="https://www.facebook.com/billyuanhong.sun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fas fa-envelope" aria-hidden="true"></i></a>
