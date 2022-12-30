@@ -93,11 +93,11 @@ class Footer extends HTMLElement {
 				<font color=#cccccc>Copyright 2018-2022 © Bill Yuan Hong Sun</font>
 
 			<div class="socialmedia">
+                <a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
 				<a href="https://github.com/billyhsun"><i class="fab fa-github" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA"><i class="fab fa-google"></i></a>
                 <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun"><i class="fab fa-researchgate"></i></a>
-                <a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
-                <a href="https://www.facebook.com/billyuanhong.sun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/billyhsun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fas fa-envelope" aria-hidden="true"></i></a>
 			</div>
@@ -105,12 +105,40 @@ class Footer extends HTMLElement {
 			</p>
 			<br><br>
 		</div>
+        `
+    }
+}
 
+// Publications
+class Publications extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = 
+        `
+		<div class="publications">
+            <p>[1] Sun, Y.H., Luo, H. & Lee, K. (2022). A Novel Approach for Developing Efficient and Convenient Short Assessments to Approximate a Long Assessment. Behavior Research Methods. 
+                <a href="https://doi.org/10.3758/s13428-021-01771-7">https://doi.org/10.3758/s13428-021-01771-7</a>
+            </p>
+            <p>[2] Sun, Y.H., Liu, Q., Lee, N.Y., Li, X., & Lee, K. (2022). A novel machine learning approach to shorten depression risk assessment for convenient uses. Journal of Affective Disorders, 312, 275–291.
+                <a href="https://doi.org/10.1016/j.jad.2022.06.035">https://doi.org/10.1016/j.jad.2022.06.035</a>
+            </p>
+            <p>[3] Liu, S., Sun, Y.H., Waese-Perlman, A.A., Lee, N.Y., Zhang, H., Lee, K. (2022). Symptom Based Models of COVID-19 Infection Using AI. In: Lidströmer, N., Eldar, Y.C. (eds) Artificial Intelligence in Covid-19. Springer, Cham. 
+                <a href="https://doi.org/10.1007/978-3-031-08506-2_8">https://doi.org/10.1007/978-3-031-08506-2_8</a>
+            </p>
+            <p>[4] Zhou, W., Sun, Y.H., Huang, W., Liu, Q., Lee, N.Y., Yasin, Y., Chen, Z., Wang, J., Cai, P., Feng, Z.P. & Lee, K. (In press). Risk prediction of fatty liver disease by machine learning using physical and blood biomarkers independent of liver biopsy. Metabolism.
+                (<a href="files/NAFLD-Manuscript-Lancet.pdf">Submission</a>)
+            </p>
+            <p>[5] Yasin, Y., Sun, Y.H., & Lee, K. (2022). A machine learning approach for predicting children's future BMI. Canadian Developmental Psychology Conference 2022.
+                (<a href="files/poster-childbmi.pdf">Poster</a>)
+            </p>
+            <p><a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA">
+            Google Scholar</a> &emsp; <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun">ResearchGate</a></p>
+		</div>
         `
     }
 }
 
 /* More links
+<a href="https://devpost.com/billyhsun"><i class="fab fa-dev"></i></a>
 <a href="https://angel.co/bill-sun-1"><i class="fab fa-angellist"></i></a>
 <a href="https://stackoverflow.com/users/11026180/bill-sun"><i class="fab fa-stack-overflow"></i></a>
 <a href="https://www.kaggle.com/billyhsun"><i class="fab fa-kaggle"></i></a>
@@ -137,3 +165,4 @@ class Footer extends HTMLElement {
 customElements.define('main-head', Head);
 customElements.define('main-header', Header);
 customElements.define('main-footer', Footer);
+customElements.define('publications-list', Publications);
