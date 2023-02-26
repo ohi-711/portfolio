@@ -127,8 +127,15 @@ class Publications extends HTMLElement {
             <p>[4] Yasin, Y., Sun, Y.H., & Lee, K. (2022). A machine learning approach for predicting children's future BMI. Canadian Developmental Psychology Conference 2022.
                 (<a href="files/poster-childbmi.pdf">Poster</a>)
             </p>
-            <p><a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA">
-            Google Scholar</a> &emsp; <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun">ResearchGate</a></p>
+            <!-- <p>[5] Zhou, W., Sun, Y.H., Huang, W., Liu, Q., Lee, N.Y., Yasin, Y., Chen, Z., Wang, J., Cai, P., Feng, Z.P. & Lee, K. (In press). Risk prediction of fatty liver disease by machine learning using physical and blood biomarkers independent of liver biopsy. Metabolism.
+                (<a href="files/NAFLD-Manuscript-Lancet.pdf">Submission</a>)
+            </p> -->
+            <p>
+                <a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA">
+                Google Scholar</a>
+                &emsp; <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun">ResearchGate</a>
+                &emsp; <a href="https://orcid.org/0000-0002-2343-0340">ORCiD</a>
+            </p>
 		</div>
         `
     }
