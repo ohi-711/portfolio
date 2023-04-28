@@ -63,11 +63,11 @@ class Header extends HTMLElement {
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="thesis.html">Research & Publications</a>
+                    <a href="research.html">Research & Publications</a>
                     <a href="https://www.kinaxis.com/en">Machine Learning Engineer - Kinaxis</a>
                     <a href="https://www.nuralogix.ai/">Data Science Software Developer - Nuralogix</a>
                     <a href="capstone.html">Capstone Project - Public Health Ontario</a>
-                    <a href="research.html">Transportation Modelling Research - University of Toronto</a>
+                    <a href="transit.html">Transportation Modelling Research - University of Toronto</a>
                 </div>
             </div>
             <div class="button"><a href="overview.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">About
