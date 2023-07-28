@@ -116,16 +116,16 @@ class Publications extends HTMLElement {
         `
 		<div class="publications">
             <p>[1] Sun, Y.H., Luo, H. & Lee, K. (2022). A Novel Approach for Developing Efficient and Convenient Short Assessments to Approximate a Long Assessment. Behavior Research Methods. 
-                <a href="https://doi.org/10.3758/s13428-021-01771-7">https://doi.org/10.3758/s13428-021-01771-7</a>
+                <a href="https://doi.org/10.3758/s13428-021-01771-7">doi.org/10.3758/s13428-021-01771-7</a>
             </p>
             <p>[2] Sun, Y.H., Liu, Q., Lee, N.Y., Li, X., & Lee, K. (2022). A novel machine learning approach to shorten depression risk assessment for convenient uses. Journal of Affective Disorders, 312, 275–291.
-                <a href="https://doi.org/10.1016/j.jad.2022.06.035">https://doi.org/10.1016/j.jad.2022.06.035</a>
+                <a href="https://doi.org/10.1016/j.jad.2022.06.035">doi.org/10.1016/j.jad.2022.06.035</a>
             </p>
             <p>[3] Liu, S., Sun, Y.H., Waese-Perlman, A.A., Lee, N.Y., Zhang, H., Lee, K. (2022). Symptom Based Models of COVID-19 Infection Using AI. In: Lidströmer, N., Eldar, Y.C. (eds) Artificial Intelligence in Covid-19. Springer, Cham. 
-                <a href="https://doi.org/10.1007/978-3-031-08506-2_8">https://doi.org/10.1007/978-3-031-08506-2_8</a>
+                <a href="https://doi.org/10.1007/978-3-031-08506-2_8">doi.org/10.1007/978-3-031-08506-2_8</a>
             </p>
             <p>[4] Yasin, Y., Sun, Y.H., & Lee, K. (2022). A machine learning approach for predicting children's future BMI. Canadian Developmental Psychology Conference 2022.
-                (<a href="files/poster-childbmi.pdf">Poster</a>)
+                (Conference proceeding). <a href="files/poster-childbmi.pdf">Poster</a>
             </p>
             <!-- <p>[5] Zhou, W., Sun, Y.H., Huang, W., Liu, Q., Lee, N.Y., Yasin, Y., Chen, Z., Wang, J., Cai, P., Feng, Z.P. & Lee, K. (In press). Risk prediction of fatty liver disease by machine learning using physical and blood biomarkers independent of liver biopsy. Metabolism.
                 (<a href="files/NAFLD-Manuscript-Lancet.pdf">Submission</a>)

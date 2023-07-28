@@ -52,17 +52,36 @@
         <!-- <h3>September 2020 — April 2021</h3> -->
         <br>
 
-        <p>The goal of this thesis is to develop a self-assessment tool to efficiently predict the likelihood of anxiety,
-            using a machine learning approach. The proliferation of anxiety among young adults today is a serious mental
-            health concern, and existing anxiety assessment tools are either too long or not very accessible. Research
-            work first need be done by applying various machine learning techniques on datasets of existing anxiety and
-            mental health questionnaires, before selecting the best approach. Then, a best set of survey questions and
-            machine learning models would be selected, which would accurately predict the likelihood of anxiety, based
-            on how the questions were answered. Finally, a prototype of the thesis product would be implemented as a web
-            application, with a web user interface that mimic the functionality of the anxiety self-assessment tool.</p>
+        <p>This paper describes the development of efficient, convenient, and 
+            non-repetitive short assessments (e.g., surveys, tests, exams) to 
+            replace a long assessment for conducting any kind of assessments of 
+            people's behaviors, opinions, attitudes, mental and physical states, 
+            traits (e.g., personality), and abilities (e.g., IQ), and skills 
+            (e.g., music playing proficiency). The process involves (1) obtain 
+            data for a particular long assessment (e.g., a scale for Generalized 
+            Anxiety Disorder, GAD) from a large sample of participants, (2) derive 
+            the ground truth scores from participants' responses to all items of the 
+            long assessment (e.g., scores of GAD or class of GAD: with vs. with GAD),
+            (3) use machine learning to select participants' response to a small set of 
+            items of the long assessment to predict the ground truth accurately, 
+            (4) obtain computational models that use the minimal number of items 
+            needed to achieve the prediction accuracy as high as when the 
+            responses to all items of the whole long assessment are used, 
+            (5) generate all possible combinations of minimal number of items 
+            to create multiple short assessments of similar predictive accuracies 
+            for use if the short assessment is to be done repeatedly, (6) implement 
+            the short assessments in computer programs, mobile apps, websites, clouds, 
+            telemarketing, and any other forms for use with any future participant of 
+            the assessment, (7) the implementation will randomly or non-randomly select 
+            one subset of items to assess a particular participant using these platforms, 
+            (7) the implementation will use the computational model based on the subset 
+            of items to produce estimated scores as if the participant has done the 
+            long assessment, and the confidence of the model's estimation in the form 
+            of likelihood ratio or similar indexes.
+        </p>
 
-        <p>This paper has been published in the
-            <a href="https://www.springer.com/journal/13428">Behavior Research Methods</a> journal.
+        <p>A version of this paper has been published in the
+            <a href="https://doi.org/10.3758/s13428-021-01771-7">Behavior Research Methods</a> journal.
         </p>
         <br><br>
 
@@ -75,17 +94,21 @@
         <!-- <h3>September 2022 — April 2023</h3> -->
         <br>
 
-        <p>This study applies a set of machine learning methods to develop a shortened MMPI-2 scale, 
-            which consists of 567 items, and evaluate its validity. We first selected the most important 
-            items using feature importance measures such as MRMR and SHAP, and then trained machine learning 
-            models on the selected items. We employed a novel machine learning method called the stacked 
-            generalization ensemble, of several machine learning techniques to achieve the above accuracy. 
-            We were able to reduce the length of the MMPI-2 by over 82%. The shortened MMPI scales can measure 
-            the 10 target conditions/subscales with at least 85% Area Under Curve of the Receiver Operating 
-            Characteristic (AUC ROC). Finally, we implemented this shortened MMPI-2 scale into a mobile-friendly 
-            web application, to demonstrate its effectiveness when using it for regular mental health monitoring 
-            or screening. This shortened scale can help alleviate pressure on healthcare systems for dealing 
-            with mental health concerns, as well as demonstrating a novel approach for developing cognitive tests. </p>
+        <p>This study applies a set of machine learning methods to develop a shortened, 
+            100-item version of the MMPI-2 scale and evaluate its reliability and validity. 
+            We first selected the most important items from the original 567-item MMPI scale 
+            using feature importance measures such as MRMR and SHAP. Then we trained machine 
+            learning models on the selected items using a novel machine learning method called 
+            the stacked generalization ensemble of several machine learning techniques. 
+            We were able to reduce the length of the MMPI-2 by over 82% from 567 items to 
+            100 items. The shortened MMPI scales, denoted the MMPI-100, can measure the 10 
+            target conditions with at least 85% Area Under Curve of the Receiver Operating 
+            Characteristic (AUC ROC). It also has a Cronbach's Alpha of 0.96. Finally, we 
+            implemented this shortened MMPI-2 scale into a mobile-friendly web application. 
+            This shortened scale can not only help alleviate pressure on healthcare systems 
+            for dealing with the increased number of patients with mental health concerns but 
+            also for individuals to use it for regular mental health monitoring or screening.
+        </p>
         <br><br>
     
 
