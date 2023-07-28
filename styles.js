@@ -70,7 +70,7 @@ class Header extends HTMLElement {
                     <a href="transit.html">Transportation Modelling Research - University of Toronto</a>
                 </div>
             </div>
-            <div class="button"><a href="overview.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">About
+            <div class="button"><a href="about.html" style="color: #e6e6e6; text-decoration: none; padding: 15px 15px">About
                     Me</a></div>
             <div class="logo">
                 <h1 style="margin:1px;">
