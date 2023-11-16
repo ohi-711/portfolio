@@ -27,8 +27,7 @@ class Head extends HTMLElement {
             <meta name="author" content="Bill (Yuan Hong) Sun">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"
-                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+            <script src="https://kit.fontawesome.com/728ac3f723.js" crossorigin="anonymous"></script>
         </head>
 
         `
@@ -93,12 +92,12 @@ class Footer extends HTMLElement {
 				<font color=#cccccc>Copyright 2018-2023 © Bill Yuan Hong Sun</font>
 
 			<div class="socialmedia">
-                <a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-				<a href="https://github.com/billyhsun"><i class="fab fa-github" aria-hidden="true"></i></a>
-                <a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA"><i class="fab fa-google"></i></a>
-                <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun"><i class="fab fa-researchgate"></i></a>
-                <a href="https://www.facebook.com/billyhsun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab-brands fa-linkedin-in" aria-hidden="true"></i></a>
+				<a href="https://github.com/billyhsun"><i class="fab-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://scholar.google.com/citations?hl=en&user=bbtplDkAAAAJ&view_op=list_works&gmla=AJsN-F4COolLEfdgE4iCWldQ-NS9XYUCR5fAPNxaEnJmw0C_VnRX9D0330aSstBiPzdrgi9lJ_ueu85EiVneGUbauuNtqvL3uSWMXhNprQDV_4_cdGrDhYA"><i class="fab-brands fa-google"></i></a>
+                <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun"><i class="fab-brands fa-researchgate"></i></a>
+                <a href="https://www.facebook.com/billyhsun"><i class="fab-brands fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/billyhsun/"><i class="fab-brands fa-instagram" aria-hidden="true"></i></a>
                 <a href="https://www.threads.net/@billyhsun"><i class="fa-brands fa-threads"></i></a>
 				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 <a href="https://linktr.ee/billyhsun"><i class="fa-solid fa-link"></i></a>
