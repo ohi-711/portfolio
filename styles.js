@@ -90,7 +90,7 @@ class Footer extends HTMLElement {
 			<br>
 
 			<p style="margin-left: 2%;">
-				<font color=#cccccc>Copyright 2018-2022 © Bill Yuan Hong Sun</font>
+				<font color=#cccccc>Copyright 2018-2023 © Bill Yuan Hong Sun</font>
 
 			<div class="socialmedia">
                 <a href="https://www.linkedin.com/in/bill-yuan-hong-sun/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
@@ -99,7 +99,9 @@ class Footer extends HTMLElement {
                 <a href="https://www.researchgate.net/profile/Yuan-Hong-Sun"><i class="fab fa-researchgate"></i></a>
                 <a href="https://www.facebook.com/billyhsun"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/billyhsun/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.threads.net/@billyhsun"><i class="fa-brands fa-threads"></i></a>
 				<a href="mailto:billyuanhong.sun@mail.utoronto.ca"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://linktr.ee/billyhsun"><i class="fa-solid fa-link"></i></a>
 			</div>
 
 			</p>
