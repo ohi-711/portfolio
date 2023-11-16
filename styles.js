@@ -27,7 +27,7 @@ class Head extends HTMLElement {
             <meta name="author" content="Bill (Yuan Hong) Sun">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
             <link rel="stylesheet" href="styles.css">
-            <script src="https://kit.fontawesome.com/728ac3f723.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         </head>
 
         `
