@@ -1,3 +1,8 @@
+.navbar {
+    height: 60px; 
+    align-items: center;
+}
+
 body {
     background-color: #1a2639;
     color: #d4d4dc;
@@ -5,8 +10,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.logo {
+.navbar .logo {
+    font-size: 3rem;
     font-weight: bold;
+    align-items: center;
 }
 
 #hero {
